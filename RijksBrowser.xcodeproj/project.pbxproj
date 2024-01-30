@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		E26AB7052B68FE30003C8E43 /* RijksBrowserApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26AB7042B68FE30003C8E43 /* RijksBrowserApp.swift */; };
-		E26AB7072B68FE30003C8E43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26AB7062B68FE30003C8E43 /* ContentView.swift */; };
 		E26AB7092B68FE31003C8E43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E26AB7082B68FE31003C8E43 /* Assets.xcassets */; };
 		E26AB70D2B68FE31003C8E43 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E26AB70C2B68FE31003C8E43 /* Preview Assets.xcassets */; };
 		E26AB7172B68FE32003C8E43 /* RijksBrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26AB7162B68FE32003C8E43 /* RijksBrowserTests.swift */; };
 		E26AB7212B68FE32003C8E43 /* RijksBrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26AB7202B68FE32003C8E43 /* RijksBrowserUITests.swift */; };
 		E26AB7232B68FE32003C8E43 /* RijksBrowserUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26AB7222B68FE32003C8E43 /* RijksBrowserUITestsLaunchTests.swift */; };
+		E26AB7342B69059D003C8E43 /* HomeFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26AB7312B69059D003C8E43 /* HomeFeedView.swift */; };
+		E26AB7352B69059D003C8E43 /* ImagesGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26AB7322B69059D003C8E43 /* ImagesGridView.swift */; };
+		E26AB7362B69059D003C8E43 /* HomeFeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26AB7332B69059D003C8E43 /* HomeFeedModel.swift */; };
+		E2A82EC22B6907FF00BDCB39 /* RijksAPI in Frameworks */ = {isa = PBXBuildFile; productRef = E2A82EC12B6907FF00BDCB39 /* RijksAPI */; };
+		E2A82EC42B69080400BDCB39 /* CommonUI in Frameworks */ = {isa = PBXBuildFile; productRef = E2A82EC32B69080400BDCB39 /* CommonUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 /* Begin PBXFileReference section */
 		E26AB7012B68FE30003C8E43 /* RijksBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RijksBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E26AB7042B68FE30003C8E43 /* RijksBrowserApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RijksBrowserApp.swift; sourceTree = "<group>"; };
-		E26AB7062B68FE30003C8E43 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E26AB7082B68FE31003C8E43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E26AB70A2B68FE31003C8E43 /* RijksBrowser.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RijksBrowser.entitlements; sourceTree = "<group>"; };
 		E26AB70C2B68FE31003C8E43 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +48,10 @@
 		E26AB71C2B68FE32003C8E43 /* RijksBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RijksBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E26AB7202B68FE32003C8E43 /* RijksBrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RijksBrowserUITests.swift; sourceTree = "<group>"; };
 		E26AB7222B68FE32003C8E43 /* RijksBrowserUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RijksBrowserUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E26AB7312B69059D003C8E43 /* HomeFeedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeFeedView.swift; sourceTree = "<group>"; };
+		E26AB7322B69059D003C8E43 /* ImagesGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesGridView.swift; sourceTree = "<group>"; };
+		E26AB7332B69059D003C8E43 /* HomeFeedModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeFeedModel.swift; sourceTree = "<group>"; };
+		E26AB7382B69076D003C8E43 /* Modules */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Modules; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2A82EC22B6907FF00BDCB39 /* RijksAPI in Frameworks */,
+				E2A82EC42B69080400BDCB39 /* CommonUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,10 +84,12 @@
 		E26AB6F82B68FE30003C8E43 = {
 			isa = PBXGroup;
 			children = (
+				E26AB7382B69076D003C8E43 /* Modules */,
 				E26AB7032B68FE30003C8E43 /* RijksBrowser */,
 				E26AB7152B68FE32003C8E43 /* RijksBrowserTests */,
 				E26AB71F2B68FE32003C8E43 /* RijksBrowserUITests */,
 				E26AB7022B68FE30003C8E43 /* Products */,
+				E2A82EC02B6907FF00BDCB39 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,7 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				E26AB7042B68FE30003C8E43 /* RijksBrowserApp.swift */,
-				E26AB7062B68FE30003C8E43 /* ContentView.swift */,
+				E26AB7372B6905A4003C8E43 /* Feed */,
 				E26AB7082B68FE31003C8E43 /* Assets.xcassets */,
 				E26AB70A2B68FE31003C8E43 /* RijksBrowser.entitlements */,
 				E26AB70B2B68FE31003C8E43 /* Preview Content */,
@@ -129,6 +140,23 @@
 			path = RijksBrowserUITests;
 			sourceTree = "<group>";
 		};
+		E26AB7372B6905A4003C8E43 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				E26AB7332B69059D003C8E43 /* HomeFeedModel.swift */,
+				E26AB7312B69059D003C8E43 /* HomeFeedView.swift */,
+				E26AB7322B69059D003C8E43 /* ImagesGridView.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		E2A82EC02B6907FF00BDCB39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +173,10 @@
 			dependencies = (
 			);
 			name = RijksBrowser;
+			packageProductDependencies = (
+				E2A82EC12B6907FF00BDCB39 /* RijksAPI */,
+				E2A82EC32B69080400BDCB39 /* CommonUI */,
+			);
 			productName = RijksBrowser;
 			productReference = E26AB7012B68FE30003C8E43 /* RijksBrowser.app */;
 			productType = "com.apple.product-type.application";
@@ -259,8 +291,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E26AB7072B68FE30003C8E43 /* ContentView.swift in Sources */,
+				E26AB7362B69059D003C8E43 /* HomeFeedModel.swift in Sources */,
 				E26AB7052B68FE30003C8E43 /* RijksBrowserApp.swift in Sources */,
+				E26AB7342B69059D003C8E43 /* HomeFeedView.swift in Sources */,
+				E26AB7352B69059D003C8E43 /* ImagesGridView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +454,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"RijksBrowser/Preview Content\"";
+				DEVELOPMENT_TEAM = BPWW25E9GK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -456,6 +491,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"RijksBrowser/Preview Content\"";
+				DEVELOPMENT_TEAM = BPWW25E9GK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -609,6 +645,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E2A82EC12B6907FF00BDCB39 /* RijksAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RijksAPI;
+		};
+		E2A82EC32B69080400BDCB39 /* CommonUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CommonUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E26AB6F92B68FE30003C8E43 /* Project object */;
 }
