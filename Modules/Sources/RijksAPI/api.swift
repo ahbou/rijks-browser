@@ -56,7 +56,7 @@ public class RijksAPI {
     }()
 
     /// Rikjs Museum API key
-    private let apiKey = "DoMhfCdY"
+    private let apiKey = Secrets.rijksApiKey
 
     public init(session: URLSession = .shared) {
         self.urlSession = session

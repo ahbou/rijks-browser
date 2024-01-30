@@ -11,19 +11,25 @@ let package = Package(
     products: [
         .library(name: "RijksAPI", targets: ["RijksAPI"]),
         .library(name: "Toolbox", targets: ["Toolbox"]),
-        .library(name: "CommonUI", targets: ["CommonUI"]),
+        .library(name: "CommonUI", targets: ["CommonUI"])
     ],
-    dependencies: [],
+    dependencies: [
+        .package(url: "https://github.com/vdka/SecretsManager.git", exact: "1.1.3")
+    ],
     targets: [
-        .target(name: "RijksAPI", dependencies: [
-            "Toolbox"
-        ]),
+        .target(
+            name: "RijksAPI",
+            dependencies: [
+                "Toolbox"
+            ],
+            plugins: [
+                .plugin(name: "SecretsManagerPlugin", package: "SecretsManager")
+            ]),
         .testTarget(
             name: "APITests",
             dependencies: ["RijksAPI"]),
         .target(name: "CommonUI", dependencies: [
             "Toolbox"
         ]),
-        .target(name: "Toolbox", dependencies: []),
-    ]
-)
+        .target(name: "Toolbox", dependencies: [])
+    ])
