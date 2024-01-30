@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E26AB7052B68FE30003C8E43 /* RijksBrowserApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26AB7042B68FE30003C8E43 /* RijksBrowserApp.swift */; };
+		E26AB7072B68FE30003C8E43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26AB7062B68FE30003C8E43 /* ContentView.swift */; };
+		E26AB7092B68FE31003C8E43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E26AB7082B68FE31003C8E43 /* Assets.xcassets */; };
+		E26AB70D2B68FE31003C8E43 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E26AB70C2B68FE31003C8E43 /* Preview Assets.xcassets */; };
+		E26AB7172B68FE32003C8E43 /* RijksBrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26AB7162B68FE32003C8E43 /* RijksBrowserTests.swift */; };
+		E26AB7212B68FE32003C8E43 /* RijksBrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26AB7202B68FE32003C8E43 /* RijksBrowserUITests.swift */; };
+		E26AB7232B68FE32003C8E43 /* RijksBrowserUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26AB7222B68FE32003C8E43 /* RijksBrowserUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E26AB7132B68FE32003C8E43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E26AB6F92B68FE30003C8E43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E26AB7002B68FE30003C8E43;
+			remoteInfo = RijksBrowser;
+		};
+		E26AB71D2B68FE32003C8E43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E26AB6F92B68FE30003C8E43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E26AB7002B68FE30003C8E43;
+			remoteInfo = RijksBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E26AB7012B68FE30003C8E43 /* RijksBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RijksBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E26AB7042B68FE30003C8E43 /* RijksBrowserApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RijksBrowserApp.swift; sourceTree = "<group>"; };
+		E26AB7062B68FE30003C8E43 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E26AB7082B68FE31003C8E43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E26AB70A2B68FE31003C8E43 /* RijksBrowser.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RijksBrowser.entitlements; sourceTree = "<group>"; };
+		E26AB70C2B68FE31003C8E43 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E26AB7122B68FE32003C8E43 /* RijksBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RijksBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E26AB7162B68FE32003C8E43 /* RijksBrowserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RijksBrowserTests.swift; sourceTree = "<group>"; };
+		E26AB71C2B68FE32003C8E43 /* RijksBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RijksBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E26AB7202B68FE32003C8E43 /* RijksBrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RijksBrowserUITests.swift; sourceTree = "<group>"; };
+		E26AB7222B68FE32003C8E43 /* RijksBrowserUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RijksBrowserUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E26AB6FE2B68FE30003C8E43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26AB70F2B68FE32003C8E43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26AB7192B68FE32003C8E43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E26AB6F82B68FE30003C8E43 = {
+			isa = PBXGroup;
+			children = (
+				E26AB7032B68FE30003C8E43 /* RijksBrowser */,
+				E26AB7152B68FE32003C8E43 /* RijksBrowserTests */,
+				E26AB71F2B68FE32003C8E43 /* RijksBrowserUITests */,
+				E26AB7022B68FE30003C8E43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E26AB7022B68FE30003C8E43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E26AB7012B68FE30003C8E43 /* RijksBrowser.app */,
+				E26AB7122B68FE32003C8E43 /* RijksBrowserTests.xctest */,
+				E26AB71C2B68FE32003C8E43 /* RijksBrowserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E26AB7032B68FE30003C8E43 /* RijksBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				E26AB7042B68FE30003C8E43 /* RijksBrowserApp.swift */,
+				E26AB7062B68FE30003C8E43 /* ContentView.swift */,
+				E26AB7082B68FE31003C8E43 /* Assets.xcassets */,
+				E26AB70A2B68FE31003C8E43 /* RijksBrowser.entitlements */,
+				E26AB70B2B68FE31003C8E43 /* Preview Content */,
+			);
+			path = RijksBrowser;
+			sourceTree = "<group>";
+		};
+		E26AB70B2B68FE31003C8E43 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E26AB70C2B68FE31003C8E43 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E26AB7152B68FE32003C8E43 /* RijksBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				E26AB7162B68FE32003C8E43 /* RijksBrowserTests.swift */,
+			);
+			path = RijksBrowserTests;
+			sourceTree = "<group>";
+		};
+		E26AB71F2B68FE32003C8E43 /* RijksBrowserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E26AB7202B68FE32003C8E43 /* RijksBrowserUITests.swift */,
+				E26AB7222B68FE32003C8E43 /* RijksBrowserUITestsLaunchTests.swift */,
+			);
+			path = RijksBrowserUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E26AB7002B68FE30003C8E43 /* RijksBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E26AB7262B68FE32003C8E43 /* Build configuration list for PBXNativeTarget "RijksBrowser" */;
+			buildPhases = (
+				E26AB6FD2B68FE30003C8E43 /* Sources */,
+				E26AB6FE2B68FE30003C8E43 /* Frameworks */,
+				E26AB6FF2B68FE30003C8E43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RijksBrowser;
+			productName = RijksBrowser;
+			productReference = E26AB7012B68FE30003C8E43 /* RijksBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E26AB7112B68FE32003C8E43 /* RijksBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E26AB7292B68FE32003C8E43 /* Build configuration list for PBXNativeTarget "RijksBrowserTests" */;
+			buildPhases = (
+				E26AB70E2B68FE32003C8E43 /* Sources */,
+				E26AB70F2B68FE32003C8E43 /* Frameworks */,
+				E26AB7102B68FE32003C8E43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E26AB7142B68FE32003C8E43 /* PBXTargetDependency */,
+			);
+			name = RijksBrowserTests;
+			productName = RijksBrowserTests;
+			productReference = E26AB7122B68FE32003C8E43 /* RijksBrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E26AB71B2B68FE32003C8E43 /* RijksBrowserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E26AB72C2B68FE32003C8E43 /* Build configuration list for PBXNativeTarget "RijksBrowserUITests" */;
+			buildPhases = (
+				E26AB7182B68FE32003C8E43 /* Sources */,
+				E26AB7192B68FE32003C8E43 /* Frameworks */,
+				E26AB71A2B68FE32003C8E43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E26AB71E2B68FE32003C8E43 /* PBXTargetDependency */,
+			);
+			name = RijksBrowserUITests;
+			productName = RijksBrowserUITests;
+			productReference = E26AB71C2B68FE32003C8E43 /* RijksBrowserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E26AB6F92B68FE30003C8E43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					E26AB7002B68FE30003C8E43 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					E26AB7112B68FE32003C8E43 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = E26AB7002B68FE30003C8E43;
+					};
+					E26AB71B2B68FE32003C8E43 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = E26AB7002B68FE30003C8E43;
+					};
+				};
+			};
+			buildConfigurationList = E26AB6FC2B68FE30003C8E43 /* Build configuration list for PBXProject "RijksBrowser" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E26AB6F82B68FE30003C8E43;
+			productRefGroup = E26AB7022B68FE30003C8E43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E26AB7002B68FE30003C8E43 /* RijksBrowser */,
+				E26AB7112B68FE32003C8E43 /* RijksBrowserTests */,
+				E26AB71B2B68FE32003C8E43 /* RijksBrowserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E26AB6FF2B68FE30003C8E43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26AB70D2B68FE31003C8E43 /* Preview Assets.xcassets in Resources */,
+				E26AB7092B68FE31003C8E43 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26AB7102B68FE32003C8E43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26AB71A2B68FE32003C8E43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E26AB6FD2B68FE30003C8E43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26AB7072B68FE30003C8E43 /* ContentView.swift in Sources */,
+				E26AB7052B68FE30003C8E43 /* RijksBrowserApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26AB70E2B68FE32003C8E43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26AB7172B68FE32003C8E43 /* RijksBrowserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26AB7182B68FE32003C8E43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26AB7212B68FE32003C8E43 /* RijksBrowserUITests.swift in Sources */,
+				E26AB7232B68FE32003C8E43 /* RijksBrowserUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E26AB7142B68FE32003C8E43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E26AB7002B68FE30003C8E43 /* RijksBrowser */;
+			targetProxy = E26AB7132B68FE32003C8E43 /* PBXContainerItemProxy */;
+		};
+		E26AB71E2B68FE32003C8E43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E26AB7002B68FE30003C8E43 /* RijksBrowser */;
+			targetProxy = E26AB71D2B68FE32003C8E43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E26AB7242B68FE32003C8E43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E26AB7252B68FE32003C8E43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E26AB7272B68FE32003C8E43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RijksBrowser/RijksBrowser.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RijksBrowser/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ma.fs.RijksBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E26AB7282B68FE32003C8E43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RijksBrowser/RijksBrowser.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RijksBrowser/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ma.fs.RijksBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E26AB72A2B68FE32003C8E43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ma.fs.RijksBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RijksBrowser.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RijksBrowser";
+			};
+			name = Debug;
+		};
+		E26AB72B2B68FE32003C8E43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ma.fs.RijksBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RijksBrowser.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RijksBrowser";
+			};
+			name = Release;
+		};
+		E26AB72D2B68FE32003C8E43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ma.fs.RijksBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RijksBrowser;
+			};
+			name = Debug;
+		};
+		E26AB72E2B68FE32003C8E43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ma.fs.RijksBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RijksBrowser;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E26AB6FC2B68FE30003C8E43 /* Build configuration list for PBXProject "RijksBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E26AB7242B68FE32003C8E43 /* Debug */,
+				E26AB7252B68FE32003C8E43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E26AB7262B68FE32003C8E43 /* Build configuration list for PBXNativeTarget "RijksBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E26AB7272B68FE32003C8E43 /* Debug */,
+				E26AB7282B68FE32003C8E43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E26AB7292B68FE32003C8E43 /* Build configuration list for PBXNativeTarget "RijksBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E26AB72A2B68FE32003C8E43 /* Debug */,
+				E26AB72B2B68FE32003C8E43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E26AB72C2B68FE32003C8E43 /* Build configuration list for PBXNativeTarget "RijksBrowserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E26AB72D2B68FE32003C8E43 /* Debug */,
+				E26AB72E2B68FE32003C8E43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E26AB6F92B68FE30003C8E43 /* Project object */;
+}
