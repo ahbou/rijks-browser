@@ -11,7 +11,7 @@ import SwiftUI
 struct RijksBrowserApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeFeedView()
         }
     }
 }
